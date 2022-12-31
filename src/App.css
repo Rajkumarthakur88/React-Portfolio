@@ -508,6 +508,9 @@ footer i {
         width: 15% !important;
         bottom: 15px;
     }
+    .logo-div {
+        width: 40% !important;
+    }
 }
 
 /* My Css */
@@ -543,7 +546,7 @@ footer i {
 }
 
 .logo-div {
-    width: 20% !important;
+    width: 25% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -584,4 +587,14 @@ footer i {
 .nav-links:hover:before{
     
     width: 100%;
+}
+.toggle-btn{
+    width: 50px !important;
+    padding: 0 0 0 0 !important;
+    border: 2px solid #e0a80d ;
+    background-color: var(--headingColor);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
