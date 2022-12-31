@@ -34,7 +34,7 @@ function Header() {
                         <Link className='logo-div' to={"/"}> <img style={{ width: "50px", borderRadius: "50%" }} src={logo} alt='' data-aos='zoom-in-right' /></Link>
                         <button className="toggle-btn"  onClick={() => handleMode()}>
                             {
-                                theme === 'light-theme' ? <span style={{ display: "flex", fontSize: "55px" }}><FiberManualRecordIcon /> <NightsStayIcon /></span> : <span style={{ display: "flex", fontSize: "15px" }}> <LightModeIcon /><FiberManualRecordIcon /></span>
+                                theme === 'light-theme' ? <span style={{ display: "flex", fontSize: "55px" }}><FiberManualRecordIcon color="warning" /> <NightsStayIcon color="warning" /></span> : <span style={{ display: "flex", fontSize: "15px" }}> <LightModeIcon color="warning" /><FiberManualRecordIcon color="warning" /></span>
                             }
                         </button>
                     </div>
