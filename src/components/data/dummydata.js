@@ -34,7 +34,7 @@ export const navlink = [
 export const home = [
   {
     text: "HELLO I'M",
-    name: "RAJKUMAR THAKUR",
+    name: "FREELANCER",
     post: "FRONTEND DEVELOPER",
     design: "WEB DESIGNER",
     desc: "As an Frontend Developer. I Coded using HTML, CSS and JavaScript to develop features for both mobile and desktop platforms.Translated UX and business requirements into elegant code solutions. Delivered responsive web design projects in Agile framework.Integrated web applications for mobile platforms into front end environment.",

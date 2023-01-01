@@ -94,7 +94,7 @@ button {
 
 /*---------header-------------*/
 header {
-    background-color: var(--secondaryBackground);
+    background-color: var(--headingColor);
     height: 10vh;
     line-height: 10vh;
     position: sticky;
@@ -509,7 +509,18 @@ footer i {
         bottom: 15px;
     }
     .logo-div {
-        width: 40% !important;
+        width: 30% !important;
+    }
+    .Hero-typewritter{
+        font-size:16px !important;
+    }
+}
+@media (max-width:426px) {
+    .logo-div {
+        width: 47% !important;
+    }
+    .Hero-name{
+        font-size: 30px !important;
     }
 }
 
@@ -571,7 +582,7 @@ footer i {
     position: relative;
 }
 .nav-links:hover{
-    color:#d7d6d6;
+    color:var(--sliver);
 }
 
 .nav-links::before{
@@ -589,12 +600,15 @@ footer i {
     width: 100%;
 }
 .toggle-btn{
-    width: 50px !important;
-    padding: 2px 8px !important;
+    width: 45px !important;
+    padding: 1.5px 7px !important;
     border: 3px solid #e0a80d ;
     background-color: var(--headingColor);
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Hero-name{
+    color: var(--sliver) !important;
 }
