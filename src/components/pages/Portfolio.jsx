@@ -23,7 +23,7 @@ function Portfolio() {
 
     return (
         <>
-            <article className="portfolio-container">
+            <article className="portfolio-container" style={{marginTop:"120px"}}>
                 <div className='container'>
                     <Heading title='Portfolio' />
                     <div className='catButton'>

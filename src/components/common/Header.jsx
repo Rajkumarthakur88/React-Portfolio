@@ -31,7 +31,7 @@ function Header() {
             <header>
                 <div className='container flexsb nav-div'>
                     <div className='logo logo-div'>
-                        <Link className='logo-div' to={"/"}> <img style={{ width: "50px", borderRadius: "50%" }} src={logo} alt='' data-aos='zoom-in-right' /></Link>
+                        <Link className='logo-div' to={"/"}> <img style={{ width: "50px", borderRadius: "50%" }} src={logo} alt=''  /></Link>
                         <button className="toggle-btn"  onClick={() => handleMode()}>
                             {
                                 theme === 'light-theme' ? <span style={{ display: "flex", }}><FiberManualRecordIcon fontSize="5px" color="warning" /> <NightsStayIcon fontSize="5px" color="warning" /></span> : <span style={{ display: "flex" }}> <LightModeIcon fontSize="5px" color="warning" /><FiberManualRecordIcon fontSize="5px" color="warning" /></span>
@@ -41,7 +41,7 @@ function Header() {
 
                     <div className={responsive ? "hideMenu" : "nav"}>
                         {navlink.map((links, i) => (
-                            <Link to={links.url} key={i} data-aos='zoom-in-left' className="nav-links">
+                            <Link to={links.url} key={i}  className="nav-links">
                                 {links.text}
                             </Link>
                         ))}

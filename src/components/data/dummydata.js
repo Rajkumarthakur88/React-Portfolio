@@ -33,7 +33,7 @@ export const navlink = [
 ]
 export const home = [
   {
-    text: "HELLO I'M",
+    text: "Hey! I Am ",
     name: "FREELANCER",
     post: "FRONTEND DEVELOPER",
     design: "WEB DESIGNER",
@@ -42,8 +42,7 @@ export const home = [
 ]
 export const about = [
   {
-    desc: "Resourceful Front End Web Developer bringing in-depth knowledge of latest technology trends to produce clean website design. Experience handling complex HTML and CSS coding, design and extensions to meet organization's front-facing internet needs. Detail-oriented collaboration with others to define project expectations and demand. Hands-on testing and debugging to address inconsistencies and maintain performance thresholds.",
-    desc1: "As an Frontend Developer. I Coded using HTML, CSS and JavaScript to develop features for both mobile and desktop platforms.Translated UX and business requirements into elegant code solutions. Delivered responsive web design projects in Agile framework.Integrated web applications for mobile platforms into front end environment.",
+    desc: "I am a front-end web developer with experience in creating responsive, visually appealing websites and user interfaces. I have a solid understanding of web development technologies, including HTML, CSS, JavaScript, and frameworks such as React.js. I am proficient in using development tools such as Git, npm, and webpack. I am dedicated to following best practices and staying up-to-date with the latest developments in the industry. I am passionate about creating user-friendly and accessible websites that provide an optimal experience for users.",
     cover: "./images/man.png",
   },
 ]
@@ -116,44 +115,25 @@ export const portfolio = [
     id: 1,
     cover: "../images/port/port1.jpg",
     name: "Brand",
-    category: "marketing",
+    category: "Live Projects",
     title: "Brex Logo",
   },
   {
     id: 2,
     cover: "../images/port/port2.jpg",
     name: "Brand",
-    category: "design",
+    category: "Designing",
     title: "Brex Logo",
   },
+ 
   {
     id: 3,
-    cover: "../images/port/port3.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
-  },
-  {
-    id: 4,
     cover: "../images/port/port4.jpg",
     name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
-  },
-  {
-    id: 5,
-    cover: "../images/port/port5.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
-  },
-  {
-    id: 6,
-    cover: "../images/port/port6.jpg",
-    name: "Brand",
     category: "development",
     title: "Brex Logo",
-  },
+  }
+ 
 ]
 export const testimonials = [
   {
@@ -207,18 +187,15 @@ export const blog = [
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "77, Suraj Nagar",
-    text2: "Bengali Square, Indore",
+    text1: "77, Suraj Nagar,Bengali Square, Indore",
   },
   {
     icon: <PhoneIphone />,
-    text1: "8878240117",
-    text2: "9691740621",
+    text1: "+91 8878240117",
   },
   {
     icon: <EmailOutlined />,
     text1: "thakurraju8878@gmail.com",
-    text2: "thakurraj8878@gmail.com",
   },
 ]
 export const social = [
@@ -228,14 +205,14 @@ export const social = [
   // },
   {
     link: "https://www.linkedin.com/in/rajkumar-thakur-887824abc/",
-    icon: <LinkedInIcon  sx={{ fontSize: "40px",color:"white" }}/>,
+    icon: <LinkedInIcon  sx={{ fontSize: "40px",color:"#f39c12" , shadow: 'lg',marginRight:"10px" }}/>,
   },
   {
     link: "https://www.instagram.com/mr._rajkumar_singh_thakur/",
-    icon: <Instagram sx={{ fontSize: "40px", color:"white" }} />,
+    icon: <Instagram sx={{ fontSize: "40px", color:"#f39c12" , shadow: 'lg',marginRight:"10px"}} />,
   },
   {
     link: "https://github.com/Rajkumarthakur88",
-    icon: <GitHubIcon sx={{ fontSize: "40px", color:"white" }} />,
+    icon: <GitHubIcon sx={{ fontSize: "40px", color:"#f39c12", shadow: 'lg' }} />,
   },
 ]

@@ -192,6 +192,9 @@ section {
 }
 
 /*---------about-------------*/
+.about{
+    padding: 0px 0px 150px 0px !important;
+}
 .about .primaryBtn {
     margin-left: 18px;
 }
@@ -423,6 +426,9 @@ footer {
 footer i {
     margin: 5px;
     color: var(--white);
+}
+.social-links{
+
 }
 
 /*---------footer-------------*/

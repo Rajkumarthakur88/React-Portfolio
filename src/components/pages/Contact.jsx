@@ -13,24 +13,24 @@ function Contact() {
                   <p style={{marginLeft:"5px",fontSize:"20px"}} >Social Links</p>
                     {social.map((item) => (
                     <>
-                        <a href={item.link}><i  data-aos='zoom-in'>{item.icon}</i></a>
+                        <a className="social-links" href={item.link}><i  data-aos='zoom-in'>{item.icon}</i></a>
                     </>
                 ))}
                   </div>
 
-                    <div className='content flexsb'>
-                        <div className='right'>
+                    <div className='content'>
+                        {/* <div className='right'>
                             <form>
                                 <div className='flex'>
                                     <input type='text' placeholder='Name' data-aos='flip-left' />
                                     <input type='email' placeholder='Email' data-aos='flip-right' />
                                 </div>
-                                {/* <input type='email' placeholder='Subject' data-aos='flip-up' /> */}
+                                <input type='email' placeholder='Subject' data-aos='flip-up' />
                                 <textarea placeholder="Message" name='' id='' cols='30' rows='10' data-aos='flip-down'></textarea>
                                 <button data-aos='zoom-in-up'>Submit</button>
                             </form>
-                        </div>
-                        <div className='left'>
+                        </div> */}
+                        <div className='right flexsb'>
                             {contact.map((item) => (
                                 <div className='box' data-aos='zoom-in'>
                                     <i>{item.icon}</i>
