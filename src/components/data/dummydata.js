@@ -1,6 +1,13 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import parathaStore from './images//parathastore.png'
+import contactmanager from './images/contactmanager.png'
+import ecommerce from './images/ecommerce.png'
+import expensemanager from './images/expensemanager.png'
+import newsapp from './images/newsapp.png'
+import todoapp from './images/todoapp.png'
+
 export const navlink = [
   {
     url: "/",
@@ -117,10 +124,11 @@ export const portfolio = [
     name: "Brand",
     category: "Live Projects",
     title: "Brex Logo",
+    url:"https://theparatha-store.netlify.app/"
   },
   {
     id: 2,
-    cover: "",
+    cover: parathaStore,
     name: "The Paratha Store",
     category: "React Projects",
     title: "The Paratha Store",
@@ -128,15 +136,15 @@ export const portfolio = [
   },
   {
     id: 3,
-    cover: "",
-    name: "Ecommerce App",
+    cover: ecommerce,
+    name: "Ecommerce",
     category: "React Projects",
     title: "Ecommerce App",
-    url:""
+    url:"https://ecommerce-shoping-app.netlify.app/"
   },
   {
     id: 4,
-    cover: "",
+    cover: contactmanager,
     name: "Contact Manager",
     category: "React Projects",
     title: "Contact Manager",
@@ -144,7 +152,7 @@ export const portfolio = [
   },
   {
     id: 5,
-    cover: "",
+    cover: expensemanager,
     name: "Expense Manager",
     category: "React Projects",
     title: "Expense Manager",
@@ -152,7 +160,7 @@ export const portfolio = [
   },
   {
     id: 6,
-    cover: "",
+    cover: todoapp,
     name: "Todo App",
     category: "React Projects",
     title: "Todo App",
@@ -160,7 +168,7 @@ export const portfolio = [
   },
   {
     id: 7,
-    cover: "",
+    cover: newsapp,
     name: "News App",
     category: "React Projects",
     title: "News App",

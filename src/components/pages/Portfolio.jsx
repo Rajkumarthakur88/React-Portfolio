@@ -1,8 +1,7 @@
 import React, { useState } from "react"
-import Heading  from "../common/Heading"
+import Heading from "../common/Heading"
 import { portfolio } from "../data/dummydata"
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined"
-
 const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))]
 
 function Portfolio() {
@@ -20,10 +19,12 @@ function Portfolio() {
         }
     }
 
+    // console.log(list.url);
+    console.log(list[0].url);
 
     return (
         <>
-            <article className="portfolio-container" style={{marginTop:"120px"}}>
+            <article className="portfolio-container" style={{ marginTop: "120px" }}>
                 <div className='container'>
                     <Heading title='Portfolio' />
                     <div className='catButton'>
@@ -42,7 +43,8 @@ function Portfolio() {
                                 <div className='overlay'>
                                     <h3>{item.title}</h3>
                                     <span>{item.name}</span>
-                                    <VisibilityOutlinedIcon />
+
+                                    <a href={`${item.url}`}><VisibilityOutlinedIcon /></a>
                                 </div>
                             </div>
                         ))}
