@@ -120,18 +120,108 @@ export const portfolio = [
   },
   {
     id: 2,
-    cover: "../images/port/port2.jpg",
-    name: "Brand",
-    category: "Designing",
-    title: "Brex Logo",
+    cover: "",
+    name: "The Paratha Store",
+    category: "React Projects",
+    title: "The Paratha Store",
+    url:"https://theparatha-store.netlify.app/"
   },
- 
   {
     id: 3,
-    cover: "../images/port/port4.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
+    cover: "",
+    name: "Ecommerce App",
+    category: "React Projects",
+    title: "Ecommerce App",
+    url:""
+  },
+  {
+    id: 4,
+    cover: "",
+    name: "Contact Manager",
+    category: "React Projects",
+    title: "Contact Manager",
+    url:"https://contact-appreact.netlify.app/"
+  },
+  {
+    id: 5,
+    cover: "",
+    name: "Expense Manager",
+    category: "React Projects",
+    title: "Expense Manager",
+    url:"https://expense-manager-app.onrender.com/"
+  },
+  {
+    id: 6,
+    cover: "",
+    name: "Todo App",
+    category: "React Projects",
+    title: "Todo App",
+    url:"https://todo-app-1od7.onrender.com/"
+  },
+  {
+    id: 7,
+    cover: "",
+    name: "News App",
+    category: "React Projects",
+    title: "News App",
+    url:" https://newsappredux.netlify.app/"
+   
+  },
+  {
+    id: 8,
+    cover: "",
+    name: "Netflix Clone",
+    category: "Designing",
+    title: "Netflix Clone",
+    url:"https://rajkumarthakur88.github.io/NetFlix-Home-Page/"
+  },
+  {
+    id: 9,
+    cover: "",
+    name: "Hulu Clone",
+    category: "Designing",
+    title: "Hulu Clone",
+    url:"https://rajkumarthakur88.github.io/Hulu-Clone/"
+  },
+  {
+    id: 10,
+    cover: "",
+    name: "Hospital Landing Page",
+    category: "Designing",
+    title: "Hospital Landing Page",
+    url:"https://rajkumarthakur88.github.io/Ui-Hospital-landing-page/"
+  },
+  {
+    id: 11,
+    cover: "",
+    name: "Ui Food Order",
+    category: "Designing",
+    title: "Ui Food Order",
+    url:"https://rajkumarthakur88.github.io/Ui-food-order/"
+  },
+  {
+    id: 12,
+    cover: "",
+    name: "Amazon Prime Videos",
+    category: "Designing",
+    title: "Amazon Prime Videos",
+    url:"https://rajkumarthakur88.github.io/Amazon-prime-videos/"
+  },
+  {
+    id: 13,
+    cover: "",
+    name: "Noise Watch Clone",
+    category: "Designing",
+    title: "Noise Watch Clone",
+    url:"https://rajkumarthakur88.github.io/Noise-Home/"
+  },
+  {
+    id: 14,
+    cover: "",
+    name: "Rapido Homepage",
+    category: "Designing",
+    title: "Rapido Homepage",
+    url:"https://rajkumarthakur88.github.io/Rapido_Homepage/"
   }
  
 ]
