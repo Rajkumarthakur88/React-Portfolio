@@ -3,6 +3,7 @@ import { home } from "../data/dummydata"
 import Typewriter from "typewriter-effect"
 import heroImg from '../data/images/profile-img2-removebg-preview.png'
 import AnimatedStyle from "../AnimatedStyle"
+import { Link } from "react-router-dom"
 
 function Hero() {
     return (
@@ -28,13 +29,14 @@ function Hero() {
                             />
                         </h1>
                         {/* <p data-aos='fade-left'>{val.desc}</p> */}
-                        <button className='primaryBtn' data-aos='fade-up-right' style={{ fontSize: "16px", fontWeight: "600" }}>
+                    <Link to={"/contact"}>    <button className='primaryBtn' data-aos='fade-up-right' style={{ fontSize: "16px", fontWeight: "600" }}>
                             Hire me
                         </button>
+                        </Link>
                     </div>
                 ))}
                 <div className="hero-img">
-                    <img style={{ width: "350px" }} src={heroImg} alt="alt" />
+                    <img style={{ width: "800px"}} src={heroImg} alt="alt" />
                 </div>
             </section>
         </>

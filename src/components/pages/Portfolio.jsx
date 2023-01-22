@@ -42,7 +42,7 @@ function Portfolio() {
                                 </div>
                                 <div className='overlay'>
                                     <h3>{item.title}</h3>
-                                    <span>{item.name}</span>
+                                    {/* <span>{item.name}</span> */}
 
                                     <a href={`${item.url}`}><VisibilityOutlinedIcon /></a>
                                 </div>

@@ -33,9 +33,9 @@ function About() {
                             {/* <div className='left' data-aos='fade-down-right'>
                                 <img src={val.cover} alt='' />
                             </div> */}
-                            <div className="hero-img">
+                            {/* <div className="hero-img">
                                 <img style={{ width: "350px" }} src={heroImg} alt="alt" />
-                            </div>
+                            </div> */}
                             <div className='right' data-aos='fade-down-left'>
                                 <Heading title='About Me' />
                                 <p>{val.desc}</p>

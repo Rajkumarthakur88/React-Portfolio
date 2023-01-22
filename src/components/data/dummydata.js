@@ -7,6 +7,13 @@ import ecommerce from './images/ecommerce.png'
 import expensemanager from './images/expensemanager.png'
 import newsapp from './images/newsapp.png'
 import todoapp from './images/todoapp.png'
+import netflixclone from './images/netflixclone.png'
+import hulucone from './images/hulucone.png'
+import noisewatch from './images/noisewatch.png'
+import primevideos from './images/primevideos.png'
+import rapidohome from './images/rapidohome.png'
+import uifoodorder from './images/uifoodorder.png'
+import hospitallandingpage from './images/hospitallandingpage.png'
 
 export const navlink = [
   {
@@ -118,14 +125,14 @@ export const project = [
   },
 ]
 export const portfolio = [
-  {
-    id: 1,
-    cover: "../images/port/port1.jpg",
-    name: "Brand",
-    category: "Live Projects",
-    title: "Brex Logo",
-    url:"https://theparatha-store.netlify.app/"
-  },
+  // {
+  //   id: 1,
+  //   cover: "../images/port/port1.jpg",
+  //   name: "Brand",
+  //   category: "Live Projects",
+  //   title: "Brex Logo",
+  //   url:"https://theparatha-store.netlify.app/"
+  // },
   {
     id: 2,
     cover: parathaStore,
@@ -177,7 +184,7 @@ export const portfolio = [
   },
   {
     id: 8,
-    cover: "",
+    cover: netflixclone,
     name: "Netflix Clone",
     category: "Designing",
     title: "Netflix Clone",
@@ -185,7 +192,7 @@ export const portfolio = [
   },
   {
     id: 9,
-    cover: "",
+    cover: hulucone,
     name: "Hulu Clone",
     category: "Designing",
     title: "Hulu Clone",
@@ -193,7 +200,7 @@ export const portfolio = [
   },
   {
     id: 10,
-    cover: "",
+    cover: hospitallandingpage,
     name: "Hospital Landing Page",
     category: "Designing",
     title: "Hospital Landing Page",
@@ -201,7 +208,7 @@ export const portfolio = [
   },
   {
     id: 11,
-    cover: "",
+    cover: uifoodorder,
     name: "Ui Food Order",
     category: "Designing",
     title: "Ui Food Order",
@@ -209,7 +216,7 @@ export const portfolio = [
   },
   {
     id: 12,
-    cover: "",
+    cover: primevideos,
     name: "Amazon Prime Videos",
     category: "Designing",
     title: "Amazon Prime Videos",
@@ -217,7 +224,7 @@ export const portfolio = [
   },
   {
     id: 13,
-    cover: "",
+    cover: noisewatch,
     name: "Noise Watch Clone",
     category: "Designing",
     title: "Noise Watch Clone",
@@ -225,7 +232,7 @@ export const portfolio = [
   },
   {
     id: 14,
-    cover: "",
+    cover: rapidohome,
     name: "Rapido Homepage",
     category: "Designing",
     title: "Rapido Homepage",

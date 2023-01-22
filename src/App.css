@@ -571,15 +571,21 @@ footer i {
 }
 
 .hero-img {
-    width: 300px;
-    height: 360px;
-    background-color: rgb(255, 191, 0);
+    width: 400px;
+    height: 475px;
+    background-color: rgba(255, 191, 0, 0.326);
     border: none;
     border-radius: 500px 450px 100px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 50px;
+    -webkit-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.75);
+}
+.hero-img{
+   
 }
 .nav-links{
     color:#ecb10e;
