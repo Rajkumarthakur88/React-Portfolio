@@ -8,7 +8,6 @@ import { Link } from "react-router-dom"
 function Hero() {
     return (
         <>
-
                 <AnimatedStyle />
             <section className='hero'>
                 {home.map((val, i) => (
