@@ -193,7 +193,8 @@ section {
 
 /*---------about-------------*/
 .about{
-    padding: 0px 0px 150px 0px !important;
+    padding: 25px 0px 15px 0px !important;
+    height: 100vh;
 }
 .about .primaryBtn {
     margin-left: 18px;
@@ -520,6 +521,9 @@ footer i {
     .Hero-typewritter{
         font-size:16px !important;
     }
+    .about{
+        height: 180vh;
+    }
 }
 @media (max-width:426px) {
     .logo-div {
@@ -527,6 +531,9 @@ footer i {
     }
     .Hero-name{
         font-size: 30px !important;
+    }
+    .about{
+        height: 270vh;
     }
 }
 
